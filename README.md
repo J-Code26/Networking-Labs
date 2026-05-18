@@ -19,3 +19,11 @@ This repository is my organized documentation of my Cisco Packet Tracer labs, wh
 - Routing and Switching
 - Subnetting
 - Network Troubleshooting
+
+# Workflow
+
+1. Study a networking concept
+2. Build the topology in Cisco Packet Tracer
+3. Configure devices manually
+4. Test connectivity, troubleshoot and document it
+6. Upload the lab and notes to GitHub
