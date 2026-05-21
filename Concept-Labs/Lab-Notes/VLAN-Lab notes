@@ -1,1 +1,17 @@
 
+# Introduction
+
+I started this lab by using AI to generate a simple set of needed devices to create a network topology
+for a VLAN lab. I set up three switches in order to practice understanding how VLANs communicate between one another.
+I have a router connected to the central switch (S1), and PC1 and PC2 are connected independently to each seperate switch connected 
+to the central switch.
+
+# Diagram
+
+
+
+# Issues and Troubleshooting
+
+1. The first issue I ran into was understanding the intial commands needed to set up the router. I learned this, but it had been a while since
+I did it from scratch. I was able to figure it out once I looked up a couple of the commands to refresh my memory. I set the IP to 192.168.10.1.
+I made sure to use no shutdown to ensure the interface's protocol was up. 
