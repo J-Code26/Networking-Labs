@@ -30,6 +30,15 @@ I made sure to use no shutdown to ensure the interface's protocol was up.
 
 6. The last major issue I came across is what led me to a working network. I didn't have a native channel for untagged traffic. I had to research to understand what this meant and why I needed it. I had already assigned sub channels for my VLANs, but those channels, when met with untagged traffic, did not understand what to do with it. So I had to create another sub channel, but using the native sub-interface command. This was needed in order for my network topology to work because otherwise, my router wouldn't know what to do with untagged traffic. I assigned it to VLAN1, which is the default Cisco VLAN that takes care of untagged traffic.
 
+# Screenshots
+
+<img width="663" height="709" alt="Screenshot 2026-05-21 at 1 46 47 PM" src="https://github.com/user-attachments/assets/55ecff48-2d90-4d70-9531-4e41dfe8210e" />
+<img width="662" height="715" alt="Screenshot 2026-05-21 at 1 46 19 PM" src="https://github.com/user-attachments/assets/e661a0b0-54ce-4970-9c6c-287f1044693c" />
+<img width="664" height="709" alt="Screenshot 2026-05-21 at 1 45 52 PM" src="https://github.com/user-attachments/assets/6cb84d5b-93f4-4304-a40e-9438129dca14" />
+<img width="668" height="721" alt="Screenshot 2026-05-21 at 1 45 21 PM" src="https://github.com/user-attachments/assets/6cbd849b-1ed8-4ae5-9af8-cc4191ab4539" />
+<img width="913" height="1008" alt="Screenshot 2026-05-21 at 1 44 25 PM" src="https://github.com/user-attachments/assets/dec9b71a-025b-4aad-a309-1c339437ca72" />
+
+
 # What I learned
 
 I learned a lot in this simple VLAN lab. I learned the difference in Trunk and Access ports and why both cannot work at the same time and why both are important. I learned many new commands in CLI that I will continue to learn about and use frequently. I learned and now understand the importance of ensuring that names for VLANs are the same across all devices. I learned how to create sub-interfaces on a router and why the router needs them. I learned how to set up a router properly without dealing with IP mismatches. I learned the concept of why routers need subchannels, and especially those that can divert untagged traffic in the right direction. 
