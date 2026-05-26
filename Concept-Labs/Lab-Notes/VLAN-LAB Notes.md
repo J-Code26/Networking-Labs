@@ -9,7 +9,8 @@ to the central switch.
 
 # Diagram
 
-[VLAN-Lab-Diagram.pdf](https://github.com/user-attachments/files/28274680/VLAN-Lab-Diagram.pdf)
+<img width="1120" height="784" alt="Screenshot 2026-05-26 at 12 17 45 PM" src="https://github.com/user-attachments/assets/8e5447fc-e071-4ee9-af35-3ac69f855f57" />
+
 
 This diagram was changed in the actually topology slightly. It was my first one. 
 
