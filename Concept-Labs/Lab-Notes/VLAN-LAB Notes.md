@@ -45,6 +45,7 @@ I learned a lot in this simple VLAN lab. I learned the difference in Trunk and A
 
 # Commands learned
 
+- show running-config
 - show vlan brief
 - show trunk interfaces brief
 - show ip interface brief
