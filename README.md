@@ -13,6 +13,9 @@ This repository is my organized documentation of my Cisco Packet Tracer labs, wh
 # Tools and Tech
 
 - Cisco Packet Tracer
+- Physical Switch
+- Cat6E Cables
+- Raspberry Pi Zero
 - Git & GitHub
 - CLI Configuration
 - VLANs
@@ -23,7 +26,9 @@ This repository is my organized documentation of my Cisco Packet Tracer labs, wh
 # Workflow
 
 1. Study a networking concept
-2. Build the topology in Cisco Packet Tracer
-3. Configure devices manually
-4. Test connectivity, troubleshoot and document it
-6. Upload the lab and notes to GitHub
+2. Design a Hand-Written topology digram with clear labels
+3. Build the topology in Cisco Packet Tracer
+4. Configure devices manually, research unlearned commands
+5. Test connectivity, troubleshoot and document it
+6. Break it, fix it
+7. Upload the lab and notes to GitHub
